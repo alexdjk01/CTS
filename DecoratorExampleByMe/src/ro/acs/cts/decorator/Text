@@ -1,0 +1,23 @@
+
+////////// INTRODUCTION
+
+Decorator design pattern is used to modify the functionality of an object at runtime.
+At the same time other instances of the same class will not be affected by this, so individual object gets the modified behavior.
+Decorator design pattern is one of the structural design pattern (such as Adapter Pattern, Bridge Pattern, Composite Pattern) 
+It uses abstract classes or interface with composition to implement.
+
+////////// FUNCTIONALITY
+
+At compile time we usually use inheritance or composition relationships to extend the functionality of some object.
+Decorator pattern is used when we can't add any new features or remove existing functions at runtime.
+
+
+///////// When to use it?
+
+Imagine we have multiple kinds of an object, using inheritance and composition is realy hard to manage
+We will implement decorator design pattern
+
+
+The disadvantage of decorator design pattern is that it uses a lot of similar kind of objects (decorators).
+
+https://www.digitalocean.com/community/tutorials/decorator-design-pattern-in-java-example
