@@ -7,10 +7,13 @@ public class File implements FileSystemItem {
     public File(String name){
         this.name=name;
     }
-    @Override
-    public void printName() {
-        System.out.println("File:   " + this.name);
-    }
- 
+
+	@Override
+	public void printName() {
+		System.out.println("File: " +name);
+		
+	}
+    
+   
 	
 }
